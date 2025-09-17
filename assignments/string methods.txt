@@ -1,0 +1,25 @@
+| Function           | What it does (in simple words)                |
+| ------------------ | --------------------------------------------- |
+| `str.lower()`      | Converts the string to lowercase              |
+| `str.upper()`      | Converts the string to uppercase              |
+| `str.capitalize()` | Capitalizes the first letter of the string    |
+| `str.title()`      | Capitalizes the first letter of **each** word |
+| `str.swapcase()`   | Swaps lowercase to uppercase and vice versa   |
+| `str.strip()`      | Removes spaces from both sides                |
+| `str.lstrip()`     | Removes spaces from the **left** side         |
+| `str.rstrip()`     | Removes spaces from the **right** side        |
+
+
+
+===============================================================
+search and replace
+
+| Function                 | What it does                                                           |
+| ------------------------ | ---------------------------------------------------------------------- |
+| `str.find(sub)`          | Finds the index of first occurrence of `sub` (returns -1 if not found) |
+| `str.rfind(sub)`         | Finds the **last** occurrence of `sub`                                 |
+| `str.index(sub)`         | Like `find()`, but gives error if not found                            |
+| `str.replace(old, new)`  | Replaces all `old` with `new`                                          |
+| `str.count(sub)`         | Counts how many times `sub` appears                                    |
+| `str.startswith(prefix)` | Returns `True` if string starts with `prefix`                          |
+| `str.endswith(suffix)`   | Returns `True` if string ends with `suffix`                            |
